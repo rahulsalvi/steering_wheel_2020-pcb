@@ -228,30 +228,30 @@ F 3 "~" H 10100 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 1200 6200 1200
+	4950 1200 5050 1200
 Wire Wire Line
-	6100 1300 6200 1300
-Text GLabel 6100 1300 0    50   Input ~ 0
+	4950 1300 5050 1300
+Text GLabel 4950 1300 0    50   Input ~ 0
 CANL
-Text GLabel 6100 1200 0    50   Input ~ 0
+Text GLabel 4950 1200 0    50   Input ~ 0
 CANH
-Text GLabel 6100 1100 0    50   Input ~ 0
+Text GLabel 4950 1100 0    50   Input ~ 0
 CANL
-Text GLabel 6100 1000 0    50   Input ~ 0
+Text GLabel 4950 1000 0    50   Input ~ 0
 CANH
-Text GLabel 6100 900  0    50   Input ~ 0
+Text GLabel 4950 900  0    50   Input ~ 0
 GND
-Text GLabel 6100 800  0    50   Input ~ 0
+Text GLabel 4950 800  0    50   Input ~ 0
 12V
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5D9A7619
-P 6400 1000
-F 0 "J1" H 6480 992 50  0000 L CNN
-F 1 "VEHICLE" H 6480 901 50  0000 L CNN
-F 2 "" H 6400 1000 50  0001 C CNN
-F 3 "~" H 6400 1000 50  0001 C CNN
-	1    6400 1000
+P 5250 1000
+F 0 "J1" H 5330 992 50  0000 L CNN
+F 1 "VEHICLE" H 5330 901 50  0000 L CNN
+F 2 "" H 5250 1000 50  0001 C CNN
+F 3 "~" H 5250 1000 50  0001 C CNN
+	1    5250 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -269,13 +269,13 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 800  6200 800 
+	4950 800  5050 800 
 Wire Wire Line
-	6100 900  6200 900 
+	4950 900  5050 900 
 Wire Wire Line
-	6100 1000 6200 1000
+	4950 1000 5050 1000
 Wire Wire Line
-	6100 1100 6200 1100
+	4950 1100 5050 1100
 Text GLabel 7750 2050 0    50   Input ~ 0
 3V3
 $Comp
@@ -328,42 +328,42 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x07 J2
 U 1 1 5DAD132A
-P 6400 2050
-F 0 "J2" H 6480 2092 50  0000 L CNN
-F 1 "DEBUG" H 6480 2001 50  0000 L CNN
-F 2 "" H 6400 2050 50  0001 C CNN
-F 3 "~" H 6400 2050 50  0001 C CNN
-	1    6400 2050
+P 5250 2050
+F 0 "J2" H 5330 2092 50  0000 L CNN
+F 1 "DEBUG" H 5330 2001 50  0000 L CNN
+F 2 "" H 5250 2050 50  0001 C CNN
+F 3 "~" H 5250 2050 50  0001 C CNN
+	1    5250 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6100 1850 0    50   Input ~ 0
+Text GLabel 4950 1850 0    50   Input ~ 0
 3V3
-Text GLabel 6100 2050 0    50   Input ~ 0
+Text GLabel 4950 2050 0    50   Input ~ 0
 SWDIO
-Text GLabel 6100 2150 0    50   Input ~ 0
+Text GLabel 4950 2150 0    50   Input ~ 0
 SWCLK
-Text GLabel 6100 2250 0    50   Input ~ 0
+Text GLabel 4950 2250 0    50   Input ~ 0
 SWO
-Text GLabel 6100 2350 0    50   Input ~ 0
+Text GLabel 4950 2350 0    50   Input ~ 0
 NRST
-Text GLabel 6100 1950 0    50   Input ~ 0
+Text GLabel 4950 1950 0    50   Input ~ 0
 GND
-Text GLabel 6100 1750 0    50   Input ~ 0
+Text GLabel 4950 1750 0    50   Input ~ 0
 5V
 Wire Wire Line
-	6100 1750 6200 1750
+	4950 1750 5050 1750
 Wire Wire Line
-	6100 1850 6200 1850
+	4950 1850 5050 1850
 Wire Wire Line
-	6100 1950 6200 1950
+	4950 1950 5050 1950
 Wire Wire Line
-	6100 2050 6200 2050
+	4950 2050 5050 2050
 Wire Wire Line
-	6100 2150 6200 2150
+	4950 2150 5050 2150
 Wire Wire Line
-	6100 2250 6200 2250
+	4950 2250 5050 2250
 Wire Wire Line
-	6100 2350 6200 2350
+	4950 2350 5050 2350
 Text GLabel 1850 2900 0    50   Input ~ 0
 NRST
 Wire Wire Line
@@ -384,12 +384,6 @@ Text GLabel 2350 3100 0    50   Input ~ 0
 GND
 Wire Wire Line
 	2350 3100 2450 3100
-Text GLabel 7350 1050 0    50   Input ~ 0
-12V
-Text GLabel 7500 1050 2    50   Input ~ 0
-VIN
-Wire Wire Line
-	7350 1050 7500 1050
 $Comp
 L Device:C C2
 U 1 1 5DB0163C
@@ -613,4 +607,305 @@ Wire Wire Line
 	8750 950  8750 1050
 Wire Wire Line
 	8250 1050 8350 1050
+$Comp
+L dk_Diodes-Rectifiers-Single:B340A-13-F D?
+U 1 1 5D9DEDFD
+P 6400 1000
+F 0 "D?" H 6400 1262 60  0000 C CNN
+F 1 "B340A-13-F" H 6400 1156 60  0000 C CNN
+F 2 "digikey-footprints:DO-214AC" H 6600 1200 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 6600 1300 60  0001 L CNN
+F 4 "B340A-FDICT-ND" H 6600 1400 60  0001 L CNN "Digi-Key_PN"
+F 5 "B340A-13-F" H 6600 1500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6600 1600 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 6600 1700 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 6600 1800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/B340A-13-F/B340A-FDICT-ND/725054" H 6600 1900 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 3A SMA" H 6600 2000 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 6600 2100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6600 2200 60  0001 L CNN "Status"
+	1    6400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:B340A-13-F D?
+U 1 1 5D9DF9B8
+P 6400 1400
+F 0 "D?" H 6400 1662 60  0000 C CNN
+F 1 "B340A-13-F" H 6400 1556 60  0000 C CNN
+F 2 "digikey-footprints:DO-214AC" H 6600 1600 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 6600 1700 60  0001 L CNN
+F 4 "B340A-FDICT-ND" H 6600 1800 60  0001 L CNN "Digi-Key_PN"
+F 5 "B340A-13-F" H 6600 1900 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6600 2000 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 6600 2100 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 6600 2200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/B340A-13-F/B340A-FDICT-ND/725054" H 6600 2300 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 3A SMA" H 6600 2400 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 6600 2500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6600 2600 60  0001 L CNN "Status"
+	1    6400 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 1000 0    50   Input ~ 0
+12V
+Wire Wire Line
+	6100 1000 6200 1000
+Text GLabel 6100 1400 0    50   Input ~ 0
+5V
+Wire Wire Line
+	6100 1400 6200 1400
+Text GLabel 6900 1200 2    50   Input ~ 0
+VIN
+Wire Wire Line
+	6600 1000 6800 1000
+Wire Wire Line
+	6800 1000 6800 1200
+Wire Wire Line
+	6800 1200 6900 1200
+Wire Wire Line
+	6600 1400 6800 1400
+Wire Wire Line
+	6800 1400 6800 1200
+Connection ~ 6800 1200
+Wire Wire Line
+	2150 4000 2150 4200
+Wire Wire Line
+	2150 4200 2450 4200
+Wire Wire Line
+	2150 4300 2450 4300
+Wire Wire Line
+	2150 4500 2150 4300
+Connection ~ 1700 4000
+Wire Wire Line
+	1700 4000 2150 4000
+Connection ~ 1700 4500
+Wire Wire Line
+	1700 4500 2150 4500
+Wire Wire Line
+	1700 4500 1700 4400
+Wire Wire Line
+	1500 4500 1700 4500
+Wire Wire Line
+	1700 4000 1700 4100
+Wire Wire Line
+	1500 4000 1700 4000
+Connection ~ 1100 4250
+Wire Wire Line
+	1100 4500 1200 4500
+Wire Wire Line
+	1100 4250 1100 4500
+Wire Wire Line
+	1100 4250 1000 4250
+Wire Wire Line
+	1100 4000 1100 4250
+Wire Wire Line
+	1200 4000 1100 4000
+Text GLabel 1000 4250 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 5DA26385
+P 1350 4000
+F 0 "C?" V 1098 4000 50  0000 C CNN
+F 1 "26pF" V 1189 4000 50  0000 C CNN
+F 2 "" H 1388 3850 50  0001 C CNN
+F 3 "~" H 1350 4000 50  0001 C CNN
+	1    1350 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5DA251CF
+P 1700 4250
+F 0 "Y?" V 1654 4381 50  0000 L CNN
+F 1 "Crystal" V 1745 4381 50  0000 L CNN
+F 2 "" H 1700 4250 50  0001 C CNN
+F 3 "~" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DA26E1E
+P 1350 4500
+F 0 "C?" V 1098 4500 50  0000 C CNN
+F 1 "26pF" V 1189 4500 50  0000 C CNN
+F 2 "" H 1388 4350 50  0001 C CNN
+F 3 "~" H 1350 4500 50  0001 C CNN
+	1    1350 4500
+	0    1    1    0   
+$EndComp
+Text GLabel 3950 2900 2    50   Input ~ 0
+PA0
+Text GLabel 3950 3000 2    50   Input ~ 0
+PA1
+Text GLabel 3950 3100 2    50   Input ~ 0
+PA2
+Text GLabel 3950 3200 2    50   Input ~ 0
+PA3
+Text GLabel 3950 3300 2    50   Input ~ 0
+PA4
+Text GLabel 3950 3400 2    50   Input ~ 0
+PA5
+Text GLabel 3950 3500 2    50   Input ~ 0
+PA6
+Text GLabel 3950 3600 2    50   Input ~ 0
+PA7
+Text GLabel 3950 3700 2    50   Input ~ 0
+PA8
+Text GLabel 3950 3800 2    50   Input ~ 0
+PA9
+Text GLabel 3950 3900 2    50   Input ~ 0
+PA10
+Text GLabel 3950 4400 2    50   Input ~ 0
+PA15
+Wire Wire Line
+	3850 4400 3950 4400
+Wire Wire Line
+	3850 3900 3950 3900
+Wire Wire Line
+	3850 3800 3950 3800
+Wire Wire Line
+	3850 3700 3950 3700
+Wire Wire Line
+	3850 3600 3950 3600
+Wire Wire Line
+	3850 3500 3950 3500
+Wire Wire Line
+	3850 3400 3950 3400
+Wire Wire Line
+	3850 3300 3950 3300
+Wire Wire Line
+	3850 3200 3950 3200
+Wire Wire Line
+	3850 3100 3950 3100
+Wire Wire Line
+	3850 3000 3950 3000
+Wire Wire Line
+	3850 2900 3950 2900
+Text GLabel 3950 4600 2    50   Input ~ 0
+PB0
+Wire Wire Line
+	3850 4600 3950 4600
+Text GLabel 3950 4700 2    50   Input ~ 0
+PB1
+Wire Wire Line
+	3850 4700 3950 4700
+Text GLabel 3950 4800 2    50   Input ~ 0
+PB2
+Wire Wire Line
+	3850 4800 3950 4800
+Text GLabel 3950 5000 2    50   Input ~ 0
+PB4
+Wire Wire Line
+	3850 5000 3950 5000
+Text GLabel 3950 5100 2    50   Input ~ 0
+PB5
+Wire Wire Line
+	3850 5100 3950 5100
+Text GLabel 3950 5200 2    50   Input ~ 0
+PB6
+Text GLabel 3950 5300 2    50   Input ~ 0
+PB7
+Text GLabel 3950 5400 2    50   Input ~ 0
+PB8
+Text GLabel 3950 5500 2    50   Input ~ 0
+PB9
+Text GLabel 3950 5600 2    50   Input ~ 0
+PB10
+Text GLabel 3950 5700 2    50   Input ~ 0
+PB11
+Text GLabel 3950 5800 2    50   Input ~ 0
+PB12
+Text GLabel 3950 5900 2    50   Input ~ 0
+PB13
+Text GLabel 3950 6000 2    50   Input ~ 0
+PB14
+Text GLabel 3950 6100 2    50   Input ~ 0
+PB15
+Text GLabel 2350 5600 0    50   Input ~ 0
+PC10
+Text GLabel 2350 4600 0    50   Input ~ 0
+PC0
+Text GLabel 2350 4700 0    50   Input ~ 0
+PC1
+Text GLabel 2350 4800 0    50   Input ~ 0
+PC2
+Text GLabel 2350 4900 0    50   Input ~ 0
+PC3
+Text GLabel 2350 5000 0    50   Input ~ 0
+PC4
+Text GLabel 2350 5100 0    50   Input ~ 0
+PC5
+Text GLabel 2350 5200 0    50   Input ~ 0
+PC6
+Text GLabel 2350 5300 0    50   Input ~ 0
+PC7
+Text GLabel 2350 5400 0    50   Input ~ 0
+PC8
+Text GLabel 2350 5500 0    50   Input ~ 0
+PC9
+Text GLabel 2350 5700 0    50   Input ~ 0
+PC11
+Text GLabel 2350 5800 0    50   Input ~ 0
+PC12
+Text GLabel 2350 5900 0    50   Input ~ 0
+PC13
+Text GLabel 2350 6000 0    50   Input ~ 0
+PC14
+Text GLabel 2350 6100 0    50   Input ~ 0
+PC15
+Wire Wire Line
+	2350 6100 2450 6100
+Wire Wire Line
+	2350 6000 2450 6000
+Wire Wire Line
+	2350 5900 2450 5900
+Wire Wire Line
+	2350 5800 2450 5800
+Wire Wire Line
+	2350 5700 2450 5700
+Wire Wire Line
+	2350 5600 2450 5600
+Wire Wire Line
+	2350 5500 2450 5500
+Wire Wire Line
+	2350 5400 2450 5400
+Wire Wire Line
+	2350 5300 2450 5300
+Wire Wire Line
+	2350 5200 2450 5200
+Wire Wire Line
+	2350 5100 2450 5100
+Wire Wire Line
+	2350 5000 2450 5000
+Wire Wire Line
+	2350 4900 2450 4900
+Wire Wire Line
+	2350 4800 2450 4800
+Wire Wire Line
+	2350 4700 2450 4700
+Wire Wire Line
+	2350 4600 2450 4600
+Wire Wire Line
+	3850 5200 3950 5200
+Wire Wire Line
+	3850 5300 3950 5300
+Wire Wire Line
+	3850 5400 3950 5400
+Wire Wire Line
+	3850 5500 3950 5500
+Wire Wire Line
+	3850 5600 3950 5600
+Wire Wire Line
+	3850 5700 3950 5700
+Wire Wire Line
+	3850 5800 3950 5800
+Wire Wire Line
+	3850 5900 3950 5900
+Wire Wire Line
+	3850 6000 3950 6000
+Wire Wire Line
+	3850 6100 3950 6100
 $EndSCHEMATC
