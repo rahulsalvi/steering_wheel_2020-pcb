@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:steering_wheel_shield_2019-cache
+LIBS:steering_wheel_2020-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -582,66 +582,40 @@ Wire Wire Line
 Connection ~ 6900 1050
 Wire Wire Line
 	6900 1050 6900 1150
-Text GLabel 5050 950  0    50   Input ~ 0
-PC0
-Text GLabel 5050 1050 0    50   Input ~ 0
-PC1
-Text GLabel 5050 1150 0    50   Input ~ 0
-PC2
 Text GLabel 5050 1250 0    50   Input ~ 0
+PC0
+Text GLabel 5050 1150 0    50   Input ~ 0
+PC1
+Text GLabel 5050 1050 0    50   Input ~ 0
+PC2
+Text GLabel 5050 950  0    50   Input ~ 0
 PC3
 Text GLabel 5050 1350 0    50   Input ~ 0
 PC4
 Text GLabel 5050 1450 0    50   Input ~ 0
 PC5
-Text GLabel 5050 1550 0    50   Input ~ 0
-PC6
-Text GLabel 5050 1650 0    50   Input ~ 0
-PC7
 Text GLabel 5050 1750 0    50   Input ~ 0
-PC8
+PC6
 Text GLabel 5050 1850 0    50   Input ~ 0
-PC9
+PC7
 Text GLabel 5050 1950 0    50   Input ~ 0
-PC10
+PC8
 Text GLabel 5050 2050 0    50   Input ~ 0
+PC9
+Text GLabel 5050 2350 0    50   Input ~ 0
+PC10
+Text GLabel 5050 2250 0    50   Input ~ 0
 PC11
 Text GLabel 5050 2150 0    50   Input ~ 0
 PC12
-Text GLabel 5050 2250 0    50   Input ~ 0
+Text GLabel 5050 1650 0    50   Input ~ 0
 PC13
-Text GLabel 5050 2350 0    50   Input ~ 0
+Text GLabel 5050 1550 0    50   Input ~ 0
 PC14
-Wire Wire Line
-	5050 2350 5150 2350
-Wire Wire Line
-	5050 2250 5150 2250
-Wire Wire Line
-	5150 2150 5050 2150
-Wire Wire Line
-	5050 2050 5150 2050
-Wire Wire Line
-	5150 1950 5050 1950
-Wire Wire Line
-	5050 1850 5150 1850
-Wire Wire Line
-	5150 1750 5050 1750
-Wire Wire Line
-	5050 1650 5150 1650
-Wire Wire Line
-	5150 1550 5050 1550
 Wire Wire Line
 	5050 1450 5150 1450
 Wire Wire Line
 	5150 1350 5050 1350
-Wire Wire Line
-	5050 1250 5150 1250
-Wire Wire Line
-	5150 1150 5050 1150
-Wire Wire Line
-	5050 1050 5150 1050
-Wire Wire Line
-	5150 950  5050 950 
 $Comp
 L Connector_Generic:Conn_01x15 J9
 U 1 1 5E123394
@@ -827,66 +801,36 @@ Wire Wire Line
 Connection ~ 10050 1050
 Wire Wire Line
 	10050 1050 10050 1150
-Text GLabel 8150 950  0    50   Input ~ 0
+Text GLabel 8150 2350 0    50   Input ~ 0
 PB0
-Text GLabel 8150 1050 0    50   Input ~ 0
+Text GLabel 8150 2250 0    50   Input ~ 0
 PB1
-Text GLabel 8150 1150 0    50   Input ~ 0
+Text GLabel 8150 2150 0    50   Input ~ 0
 PB2
-Text GLabel 8150 1250 0    50   Input ~ 0
-PB4
 Text GLabel 8150 1350 0    50   Input ~ 0
-PB5
+PB4
 Text GLabel 8150 1450 0    50   Input ~ 0
-PB6
+PB5
 Text GLabel 8150 1550 0    50   Input ~ 0
-PB7
+PB6
 Text GLabel 8150 1650 0    50   Input ~ 0
-PB8
+PB7
 Text GLabel 8150 1750 0    50   Input ~ 0
-PB9
+PB8
 Text GLabel 8150 1850 0    50   Input ~ 0
+PB9
+Text GLabel 8150 2050 0    50   Input ~ 0
 PB10
 Text GLabel 8150 1950 0    50   Input ~ 0
 PB11
-Text GLabel 8150 2050 0    50   Input ~ 0
+Text GLabel 8150 1250 0    50   Input ~ 0
 PB12
-Text GLabel 8150 2150 0    50   Input ~ 0
+Text GLabel 8150 1150 0    50   Input ~ 0
 PB13
-Text GLabel 8150 2250 0    50   Input ~ 0
+Text GLabel 8150 1050 0    50   Input ~ 0
 PB14
-Text GLabel 8150 2350 0    50   Input ~ 0
+Text GLabel 8150 950  0    50   Input ~ 0
 PB15
-Wire Wire Line
-	8150 2350 8250 2350
-Wire Wire Line
-	8150 2250 8250 2250
-Wire Wire Line
-	8150 2150 8250 2150
-Wire Wire Line
-	8150 2050 8250 2050
-Wire Wire Line
-	8150 1950 8250 1950
-Wire Wire Line
-	8150 1850 8250 1850
-Wire Wire Line
-	8150 1750 8250 1750
-Wire Wire Line
-	8150 1650 8250 1650
-Wire Wire Line
-	8150 1550 8250 1550
-Wire Wire Line
-	8150 1450 8250 1450
-Wire Wire Line
-	8150 1350 8250 1350
-Wire Wire Line
-	8150 1250 8250 1250
-Wire Wire Line
-	8150 1150 8250 1150
-Wire Wire Line
-	8150 1050 8250 1050
-Wire Wire Line
-	8150 950  8250 950 
 $Comp
 L Connector_Generic:Conn_01x13 J4
 U 1 1 5E63E4A7
@@ -920,54 +864,32 @@ F 3 "~" H 7200 3250 50  0001 C CNN
 	1    7200 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5050 2650 0    50   Input ~ 0
+Text GLabel 5050 3650 0    50   Input ~ 0
 PA0
-Text GLabel 5050 2750 0    50   Input ~ 0
+Text GLabel 5050 3550 0    50   Input ~ 0
 PA1
-Text GLabel 5050 2850 0    50   Input ~ 0
+Text GLabel 5050 3450 0    50   Input ~ 0
 PA2
-Text GLabel 5050 2950 0    50   Input ~ 0
+Text GLabel 5050 3350 0    50   Input ~ 0
 PA3
-Text GLabel 5050 3050 0    50   Input ~ 0
+Text GLabel 5050 3250 0    50   Input ~ 0
 PA4
 Text GLabel 5050 3150 0    50   Input ~ 0
 PA5
-Text GLabel 5050 3250 0    50   Input ~ 0
+Text GLabel 5050 3050 0    50   Input ~ 0
 PA6
-Text GLabel 5050 3350 0    50   Input ~ 0
+Text GLabel 5050 2950 0    50   Input ~ 0
 PA7
-Text GLabel 5050 3450 0    50   Input ~ 0
+Text GLabel 5050 2650 0    50   Input ~ 0
 PA8
-Text GLabel 5050 3550 0    50   Input ~ 0
+Text GLabel 5050 2750 0    50   Input ~ 0
 PA9
-Text GLabel 5050 3650 0    50   Input ~ 0
+Text GLabel 5050 2850 0    50   Input ~ 0
 PA10
 Text GLabel 5050 3750 0    50   Input ~ 0
 PA15
 Text GLabel 5050 3850 0    50   Input ~ 0
 PC15
-Wire Wire Line
-	5050 2650 5150 2650
-Wire Wire Line
-	5150 2750 5050 2750
-Wire Wire Line
-	5050 2850 5150 2850
-Wire Wire Line
-	5150 2950 5050 2950
-Wire Wire Line
-	5050 3050 5150 3050
-Wire Wire Line
-	5150 3150 5050 3150
-Wire Wire Line
-	5050 3250 5150 3250
-Wire Wire Line
-	5150 3350 5050 3350
-Wire Wire Line
-	5050 3450 5150 3450
-Wire Wire Line
-	5050 3550 5150 3550
-Wire Wire Line
-	5150 3650 5050 3650
 Wire Wire Line
 	5050 3750 5150 3750
 Wire Wire Line
@@ -1607,7 +1529,7 @@ U 1 1 5DA251CF
 P 1650 2000
 F 0 "Y1" V 1604 2131 50  0000 L CNN
 F 1 "8MHz" V 1695 2131 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 1650 2000 50  0001 C CNN
+F 2 "rahulsalvi:Crystal_SMD_TXC_7A-2Pin_5x3.2mm_HandSolder" H 1650 2000 50  0001 C CNN
 F 3 "~" H 1650 2000 50  0001 C CNN
 	1    1650 2000
 	0    1    1    0   
@@ -1670,4 +1592,82 @@ Text GLabel 10200 3150 2    50   Input ~ 0
 VTref
 Wire Wire Line
 	10100 3150 10200 3150
+Wire Wire Line
+	5050 1250 5150 1250
+Wire Wire Line
+	5150 1150 5050 1150
+Wire Wire Line
+	5050 1050 5150 1050
+Wire Wire Line
+	5150 950  5050 950 
+Wire Wire Line
+	5050 1550 5150 1550
+Wire Wire Line
+	5150 1650 5050 1650
+Wire Wire Line
+	5050 1750 5150 1750
+Wire Wire Line
+	5150 1850 5050 1850
+Wire Wire Line
+	5050 1950 5150 1950
+Wire Wire Line
+	5150 2050 5050 2050
+Wire Wire Line
+	5150 2250 5050 2250
+Wire Wire Line
+	5050 2150 5150 2150
+Wire Wire Line
+	5050 2350 5150 2350
+Wire Wire Line
+	5050 2650 5150 2650
+Wire Wire Line
+	5050 2750 5150 2750
+Wire Wire Line
+	5050 2850 5150 2850
+Wire Wire Line
+	5050 2950 5150 2950
+Wire Wire Line
+	5050 3050 5150 3050
+Wire Wire Line
+	5050 3150 5150 3150
+Wire Wire Line
+	5050 3250 5150 3250
+Wire Wire Line
+	5050 3350 5150 3350
+Wire Wire Line
+	5050 3450 5150 3450
+Wire Wire Line
+	5050 3550 5150 3550
+Wire Wire Line
+	5050 3650 5150 3650
+Wire Wire Line
+	8150 2350 8250 2350
+Wire Wire Line
+	8150 2250 8250 2250
+Wire Wire Line
+	8150 2150 8250 2150
+Wire Wire Line
+	8150 1950 8250 1950
+Wire Wire Line
+	8150 2050 8250 2050
+Wire Wire Line
+	8150 1850 8250 1850
+Wire Wire Line
+	8150 1750 8250 1750
+Wire Wire Line
+	8150 1650 8250 1650
+Wire Wire Line
+	8150 1550 8250 1550
+Wire Wire Line
+	8150 1450 8250 1450
+Wire Wire Line
+	8150 1350 8250 1350
+Wire Wire Line
+	8150 1250 8250 1250
+Wire Wire Line
+	8150 950  8250 950 
+Wire Wire Line
+	8150 1050 8250 1050
+Wire Wire Line
+	8150 1150 8250 1150
 $EndSCHEMATC
