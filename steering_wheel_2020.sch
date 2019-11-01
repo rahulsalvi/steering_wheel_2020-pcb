@@ -1554,22 +1554,18 @@ Wire Wire Line
 Wire Wire Line
 	9200 2750 9300 2750
 $Comp
-L Connector_Generic:Conn_01x02 J12
+L Connector_Generic:Conn_01x03 J12
 U 1 1 5F9451A5
-P 10350 2650
-F 0 "J12" H 10430 2642 50  0000 L CNN
-F 1 "ALT_PWR" H 10430 2551 50  0000 L CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 10350 2650 50  0001 C CNN
-F 3 "~" H 10350 2650 50  0001 C CNN
-	1    10350 2650
+P 10450 2750
+F 0 "J12" H 10530 2742 50  0000 L CNN
+F 1 "ALT_PWR" H 10530 2651 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 10450 2750 50  0001 C CNN
+F 3 "~" H 10450 2750 50  0001 C CNN
+	1    10450 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 2650 10150 2650
 Text GLabel 10050 2750 0    50   Input ~ 0
 GND
-Wire Wire Line
-	10050 2750 10150 2750
 Text GLabel 10100 3150 0    50   Input ~ 0
 3V3
 Text GLabel 10200 3150 2    50   Input ~ 0
@@ -1670,4 +1666,15 @@ Wire Wire Line
 	9200 2850 9300 2850
 Wire Wire Line
 	9200 3050 9300 3050
+Wire Wire Line
+	10250 2750 10150 2750
+Wire Wire Line
+	10250 2850 10150 2850
+Wire Wire Line
+	10150 2850 10150 2750
+Connection ~ 10150 2750
+Wire Wire Line
+	10150 2750 10050 2750
+Wire Wire Line
+	10050 2650 10250 2650
 $EndSCHEMATC
