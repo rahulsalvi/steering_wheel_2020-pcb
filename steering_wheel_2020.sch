@@ -286,9 +286,9 @@ Text GLabel 9200 2850 0    50   Input ~ 0
 SWDIO
 Text GLabel 9200 2950 0    50   Input ~ 0
 SWCLK
-Text GLabel 9200 3050 0    50   Input ~ 0
-SWO
 Text GLabel 9200 3150 0    50   Input ~ 0
+SWO
+Text GLabel 9200 3050 0    50   Input ~ 0
 NRST
 Text GLabel 9200 2750 0    50   Input ~ 0
 GND
@@ -582,40 +582,36 @@ Wire Wire Line
 Connection ~ 6900 1050
 Wire Wire Line
 	6900 1050 6900 1150
-Text GLabel 5050 1250 0    50   Input ~ 0
-PC0
-Text GLabel 5050 1150 0    50   Input ~ 0
-PC1
 Text GLabel 5050 1050 0    50   Input ~ 0
-PC2
+PC0
 Text GLabel 5050 950  0    50   Input ~ 0
+PC1
+Text GLabel 5050 3850 0    50   Input ~ 0
+PC2
+Text GLabel 5050 3750 0    50   Input ~ 0
 PC3
-Text GLabel 5050 1350 0    50   Input ~ 0
+Text GLabel 5050 2850 0    50   Input ~ 0
 PC4
-Text GLabel 5050 1450 0    50   Input ~ 0
+Text GLabel 5050 2750 0    50   Input ~ 0
 PC5
-Text GLabel 5050 1750 0    50   Input ~ 0
+Text GLabel 8150 1550 0    50   Input ~ 0
 PC6
-Text GLabel 5050 1850 0    50   Input ~ 0
+Text GLabel 8150 1450 0    50   Input ~ 0
 PC7
-Text GLabel 5050 1950 0    50   Input ~ 0
+Text GLabel 8150 1350 0    50   Input ~ 0
 PC8
-Text GLabel 5050 2050 0    50   Input ~ 0
+Text GLabel 8150 1250 0    50   Input ~ 0
 PC9
-Text GLabel 5050 2350 0    50   Input ~ 0
-PC10
 Text GLabel 5050 2250 0    50   Input ~ 0
-PC11
+PC10
 Text GLabel 5050 2150 0    50   Input ~ 0
+PC11
+Text GLabel 5050 2050 0    50   Input ~ 0
 PC12
-Text GLabel 5050 1650 0    50   Input ~ 0
+Text GLabel 5050 1350 0    50   Input ~ 0
 PC13
-Text GLabel 5050 1550 0    50   Input ~ 0
+Text GLabel 5050 1250 0    50   Input ~ 0
 PC14
-Wire Wire Line
-	5050 1450 5150 1450
-Wire Wire Line
-	5150 1350 5050 1350
 $Comp
 L Connector_Generic:Conn_01x15 J9
 U 1 1 5E123394
@@ -801,35 +797,35 @@ Wire Wire Line
 Connection ~ 10050 1050
 Wire Wire Line
 	10050 1050 10050 1150
-Text GLabel 8150 2350 0    50   Input ~ 0
+Text GLabel 5050 2650 0    50   Input ~ 0
 PB0
-Text GLabel 8150 2250 0    50   Input ~ 0
+Text GLabel 8150 2350 0    50   Input ~ 0
 PB1
-Text GLabel 8150 2150 0    50   Input ~ 0
+Text GLabel 8150 2250 0    50   Input ~ 0
 PB2
-Text GLabel 8150 1350 0    50   Input ~ 0
+Text GLabel 5050 1950 0    50   Input ~ 0
 PB4
-Text GLabel 8150 1450 0    50   Input ~ 0
+Text GLabel 5050 1850 0    50   Input ~ 0
 PB5
-Text GLabel 8150 1550 0    50   Input ~ 0
+Text GLabel 5050 1750 0    50   Input ~ 0
 PB6
-Text GLabel 8150 1650 0    50   Input ~ 0
+Text GLabel 5050 1650 0    50   Input ~ 0
 PB7
-Text GLabel 8150 1750 0    50   Input ~ 0
+Text GLabel 5050 1550 0    50   Input ~ 0
 PB8
-Text GLabel 8150 1850 0    50   Input ~ 0
+Text GLabel 5050 1450 0    50   Input ~ 0
 PB9
-Text GLabel 8150 2050 0    50   Input ~ 0
+Text GLabel 8150 2150 0    50   Input ~ 0
 PB10
-Text GLabel 8150 1950 0    50   Input ~ 0
+Text GLabel 8150 2050 0    50   Input ~ 0
 PB11
-Text GLabel 8150 1250 0    50   Input ~ 0
+Text GLabel 8150 1950 0    50   Input ~ 0
 PB12
-Text GLabel 8150 1150 0    50   Input ~ 0
+Text GLabel 8150 1850 0    50   Input ~ 0
 PB13
-Text GLabel 8150 1050 0    50   Input ~ 0
+Text GLabel 8150 1750 0    50   Input ~ 0
 PB14
-Text GLabel 8150 950  0    50   Input ~ 0
+Text GLabel 8150 1650 0    50   Input ~ 0
 PB15
 $Comp
 L Connector_Generic:Conn_01x13 J4
@@ -880,20 +876,16 @@ Text GLabel 5050 3050 0    50   Input ~ 0
 PA6
 Text GLabel 5050 2950 0    50   Input ~ 0
 PA7
-Text GLabel 5050 2650 0    50   Input ~ 0
+Text GLabel 8150 1150 0    50   Input ~ 0
 PA8
-Text GLabel 5050 2750 0    50   Input ~ 0
+Text GLabel 8150 1050 0    50   Input ~ 0
 PA9
-Text GLabel 5050 2850 0    50   Input ~ 0
+Text GLabel 8150 950  0    50   Input ~ 0
 PA10
-Text GLabel 5050 3750 0    50   Input ~ 0
+Text GLabel 5050 2350 0    50   Input ~ 0
 PA15
-Text GLabel 5050 3850 0    50   Input ~ 0
+Text GLabel 5050 1150 0    50   Input ~ 0
 PC15
-Wire Wire Line
-	5050 3750 5150 3750
-Wire Wire Line
-	5150 3850 5050 3850
 Text GLabel 5850 2650 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -1561,14 +1553,6 @@ Wire Wire Line
 	9200 2650 9300 2650
 Wire Wire Line
 	9200 2750 9300 2750
-Wire Wire Line
-	9200 2850 9300 2850
-Wire Wire Line
-	9200 2950 9300 2950
-Wire Wire Line
-	9200 3050 9300 3050
-Wire Wire Line
-	9200 3150 9300 3150
 $Comp
 L Connector_Generic:Conn_01x02 J12
 U 1 1 5F9451A5
@@ -1593,31 +1577,37 @@ VTref
 Wire Wire Line
 	10100 3150 10200 3150
 Wire Wire Line
-	5050 1250 5150 1250
+	8150 950  8250 950 
 Wire Wire Line
-	5150 1150 5050 1150
+	8150 1050 8250 1050
 Wire Wire Line
-	5050 1050 5150 1050
+	8150 1150 8250 1150
 Wire Wire Line
-	5150 950  5050 950 
+	8150 1250 8250 1250
 Wire Wire Line
-	5050 1550 5150 1550
+	8150 1350 8250 1350
 Wire Wire Line
-	5150 1650 5050 1650
+	8150 1450 8250 1450
+Wire Wire Line
+	8150 1550 8250 1550
 Wire Wire Line
 	5050 1750 5150 1750
 Wire Wire Line
-	5150 1850 5050 1850
+	8150 1650 8250 1650
 Wire Wire Line
-	5050 1950 5150 1950
+	8150 1750 8250 1750
 Wire Wire Line
-	5150 2050 5050 2050
+	8150 1850 8250 1850
 Wire Wire Line
-	5150 2250 5050 2250
+	8150 1950 8250 1950
 Wire Wire Line
-	5050 2150 5150 2150
+	8150 2050 8250 2050
 Wire Wire Line
-	5050 2350 5150 2350
+	8150 2150 8250 2150
+Wire Wire Line
+	8150 2250 8250 2250
+Wire Wire Line
+	8150 2350 8250 2350
 Wire Wire Line
 	5050 2650 5150 2650
 Wire Wire Line
@@ -1641,33 +1631,43 @@ Wire Wire Line
 Wire Wire Line
 	5050 3650 5150 3650
 Wire Wire Line
-	8150 2350 8250 2350
+	5050 3750 5150 3750
 Wire Wire Line
-	8150 2250 8250 2250
+	5050 3850 5150 3850
 Wire Wire Line
-	8150 2150 8250 2150
+	5050 950  5150 950 
 Wire Wire Line
-	8150 1950 8250 1950
+	5050 1050 5150 1050
 Wire Wire Line
-	8150 2050 8250 2050
+	5050 1150 5150 1150
 Wire Wire Line
-	8150 1850 8250 1850
+	5050 1250 5150 1250
 Wire Wire Line
-	8150 1750 8250 1750
+	5050 1350 5150 1350
 Wire Wire Line
-	8150 1650 8250 1650
+	5050 1450 5150 1450
 Wire Wire Line
-	8150 1550 8250 1550
+	5050 1550 5150 1550
 Wire Wire Line
-	8150 1450 8250 1450
+	5050 1650 5150 1650
 Wire Wire Line
-	8150 1350 8250 1350
+	5050 1850 5150 1850
 Wire Wire Line
-	8150 1250 8250 1250
+	5050 1950 5150 1950
 Wire Wire Line
-	8150 950  8250 950 
+	5050 2050 5150 2050
 Wire Wire Line
-	8150 1050 8250 1050
+	5050 2150 5150 2150
 Wire Wire Line
-	8150 1150 8250 1150
+	5050 2250 5150 2250
+Wire Wire Line
+	5050 2350 5150 2350
+Wire Wire Line
+	9200 3150 9300 3150
+Wire Wire Line
+	9200 2950 9300 2950
+Wire Wire Line
+	9200 2850 9300 2850
+Wire Wire Line
+	9200 3050 9300 3050
 $EndSCHEMATC
