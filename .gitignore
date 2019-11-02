@@ -4,4 +4,5 @@
 *.xml
 # backup files
 *.*bak
+*.step
 fp-info-cache
