@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:steering_wheel_2020-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -802,7 +801,7 @@ PB0
 Text GLabel 8150 2350 0    50   Input ~ 0
 PB1
 Text GLabel 8150 2250 0    50   Input ~ 0
-PB2
+PB1
 Text GLabel 5050 1950 0    50   Input ~ 0
 PB4
 Text GLabel 5050 1850 0    50   Input ~ 0
@@ -1291,7 +1290,7 @@ PB4
 Wire Wire Line
 	3650 2900 3750 2900
 Text GLabel 3750 2900 2    50   Input ~ 0
-PB2
+BOOT1
 Wire Wire Line
 	3650 2800 3750 2800
 Text GLabel 3750 2800 2    50   Input ~ 0
@@ -1380,31 +1379,31 @@ Wire Wire Line
 Text GLabel 2650 700  0    50   Input ~ 0
 3V3
 Wire Wire Line
-	1750 1500 1750 1400
+	1700 1500 1700 1400
 Wire Wire Line
-	1650 1500 1750 1500
-Text GLabel 1650 1500 0    50   Input ~ 0
+	1550 1500 1700 1500
+Text GLabel 1550 1500 0    50   Input ~ 0
 GND
 Wire Wire Line
-	1750 1000 2250 1000
-Connection ~ 1750 1000
+	1700 1000 2250 1000
+Connection ~ 1700 1000
 Wire Wire Line
-	1750 1100 1750 1000
+	1700 1100 1700 1000
 $Comp
 L Device:C C2
 U 1 1 5DB0163C
-P 1750 1250
-F 0 "C2" H 1500 1300 50  0000 L CNN
-F 1 "0.1uF" H 1400 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1788 1100 50  0001 C CNN
-F 3 "~" H 1750 1250 50  0001 C CNN
-	1    1750 1250
+P 1700 1250
+F 0 "C2" H 1450 1300 50  0000 L CNN
+F 1 "0.1uF" H 1350 1200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 1100 50  0001 C CNN
+F 3 "~" H 1700 1250 50  0001 C CNN
+	1    1700 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2150 1200 2250 1200
 Text GLabel 2150 1200 0    50   Input ~ 0
-GND
+BOOT0
 Wire Wire Line
 	3650 3000 3750 3000
 Text GLabel 3750 3000 2    50   Input ~ 0
@@ -1418,8 +1417,8 @@ SWCLK
 Text GLabel 3750 2300 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	1650 1000 1750 1000
-Text GLabel 1650 1000 0    50   Input ~ 0
+	1600 1000 1700 1000
+Text GLabel 1600 1000 0    50   Input ~ 0
 NRST
 Wire Wire Line
 	3650 2100 3750 2100
@@ -1677,4 +1676,65 @@ Wire Wire Line
 	10150 2750 10050 2750
 Wire Wire Line
 	10050 2650 10250 2650
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J13
+U 1 1 5E5FD1BC
+P 9500 3650
+F 0 "J13" H 9550 3967 50  0000 C CNN
+F 1 "BOOT" H 9550 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9500 3650 50  0001 C CNN
+F 3 "~" H 9500 3650 50  0001 C CNN
+	1    9500 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 3650 0    50   Input ~ 0
+BOOT0
+Text GLabel 9200 3550 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	9200 3550 9300 3550
+Text GLabel 9200 3750 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9200 3750 9300 3750
+Text GLabel 9900 3750 2    50   Input ~ 0
+GND
+Wire Wire Line
+	9800 3750 9900 3750
+Text GLabel 10600 3650 2    50   Input ~ 0
+BOOT1
+Text GLabel 9900 3550 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	9800 3550 9900 3550
+$Comp
+L Device:R_US R4
+U 1 1 5E80EE60
+P 8750 3650
+F 0 "R4" V 8545 3650 50  0000 C CNN
+F 1 "10k" V 8636 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8790 3640 50  0001 C CNN
+F 3 "~" H 8750 3650 50  0001 C CNN
+	1    8750 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 3650 9300 3650
+Wire Wire Line
+	8500 3650 8600 3650
+$Comp
+L Device:R_US R5
+U 1 1 5E8DE641
+P 10350 3650
+F 0 "R5" V 10555 3650 50  0000 C CNN
+F 1 "10k" V 10464 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10390 3640 50  0001 C CNN
+F 3 "~" H 10350 3650 50  0001 C CNN
+	1    10350 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 3650 10600 3650
+Wire Wire Line
+	9800 3650 10200 3650
 $EndSCHEMATC
